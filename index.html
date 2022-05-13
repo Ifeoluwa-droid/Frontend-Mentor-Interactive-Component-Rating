@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="stylesheet" href="styles.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Overpass:wght@400;700&display=swap" rel="stylesheet">
+  <title>Frontend Mentor | Interactive rating component</title>
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+</head>
+
+<body>
+
+  <div class="card welcome-card">
+    <div class="circle">
+      <div class="in">
+        <p><img src="images/icon-star.svg" alt=""></p>
+      </div>
+    </div>
+    <h1>How did we do?</h1>
+    <p class="descr-text">Please let us know how we did with your support request. All feedback is appreciated
+      to help us improve our offering!</p>
+    <div class="d-flex-row">
+      <div class="circle">
+        <div class="in">
+          <p>1</p>
+        </div>
+      </div>
+      <div class="circle">
+        <div class="in">
+          <p>2</p>
+        </div>
+      </div>
+      <div class="circle">
+        <div class="in">
+          <p>3</p>
+        </div>
+      </div>
+      <div class="circle">
+        <div class="in">
+          <p>4</p>
+        </div>
+      </div>
+      <div class="circle">
+        <div class="in">
+          <p>5</p>
+        </div>
+      </div>
+    </div>
+    <button>
+      Submit
+    </button>
+  </div>
+  <div class="card align-center thank-you-card display-none">
+    <div>
+      <img src="images/illustration-thank-you.svg" alt="">
+    </div>
+    <div class="num-selected">
+      You selected 4 out of 5
+    </div>
+    <div>
+      <h1>Thank you!</h1>
+    </div>
+    <div class="gratitude-text">
+      <p>We appreciate you taking the time to give a rating, if you ever need more support, don't hesistate to get in touch!</p>
+    </div>
+  </div>
+
+  <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
+    Coded by <a href="#">Your Name Here</a>.
+  </div>
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+  <script src="index.js" charset="utf-8"></script>
+</body>
+
+</html>
